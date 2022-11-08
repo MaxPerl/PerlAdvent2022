@@ -44,9 +44,9 @@ $table->size_hint_weight_set(EVAS_HINT_EXPAND,0);
 $table->size_hint_align_set(EVAS_HINT_FILL,0);
 $table->show(); $container->pack_end($table);
 
-_add_color_setting($table,1,{text => "Leaf Color", color => [255,255,0], key => "leaf_colour"});
+_add_color_setting($table,1,{text => "Leaf Color", color => [9,186,10], key => "leaf_colour"});
 _add_color_setting($table,2,{text => "Pauble Color", color => [212,175,55], key => "bauble_colour"});
-_add_color_setting($table,3,{text => "Pot Color", color => [0,0,255], key => "pot_colour"});
+_add_color_setting($table,3,{text => "Pot Color", color => [133,100,69], key => "pot_colour"});
 
 _add_slider_setting($table, 4, {label => "Width of the tree", min => 700, max => 3000, key => "width"});
 _add_slider_setting($table, 5, {label => "Layers", min => 2, max => 8, key => "layers"});
